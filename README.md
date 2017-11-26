@@ -1,36 +1,14 @@
-# brainfuck
+# Brainfuck
 
-FIXME: description
+A [brainfuck](https://en.wikipedia.org/wiki/Brainfuck) interpreter written in Clojure.
 
-## Installation
+Most of the documentation is in the code itself (src/brainfuck/core.clj).
 
-Download from http://example.com/FIXME.
+To run (NB: You must have [leiningen](https://leiningen.org/) installed on your machine):
+`git clone git@github.com:barszcz/brainfuck.git`
+`cd brainfuck`
+`lein uberjar`
+`java -jar target/uberjar/brainfuck-0.1.0-SNAPSHOT-standalone.jar "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>."`
+This should print "Hello World!" to the screen.
 
-## Usage
-
-FIXME: explanation
-
-    $ java -jar brainfuck-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Have fun!
